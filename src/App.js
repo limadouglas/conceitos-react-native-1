@@ -29,9 +29,7 @@ export default function App() {
         return repository
       });
 
-      console.log("newRepositories:", newRepositories);
       setRepositories(newRepositories);
-      console.log("repositorios: ", repositories);
     });
   }
 
